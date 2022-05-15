@@ -17,17 +17,11 @@ const UserIndex = () => {
                         <div className="col-md-4">
                             <ul class="list-group">
                                 <li className="list-group-item">
-                                    <Link href="crud/category-tag">
-                                        <a>Create Category</a>
+                                    <Link href="/user/crud/category-tag">
+                                        <a>Create Category & Tags</a>
                                     </Link>
                                 </li>
-
-                                <li className="list-group-item">
-                                    <Link href="crud/category-tag">
-                                        <a>Create Tag</a>
-                                    </Link>
-                                </li>
-
+                                
                                 <li className="list-group-item">
                                     <a href="/user/crud/blog">Publish Report</a>
                                 </li>
