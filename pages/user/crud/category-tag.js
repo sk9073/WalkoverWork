@@ -11,11 +11,11 @@ const CategoryTag = () => {
                     <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-6">
-                                    <h2>Create Categories<i class="fa-solid fa-folder-bookmark"></i></h2>
+                                    <h2>Create Categories<i className="fa-solid fa-folder-bookmark"></i></h2>
                                     <Category />
                         </div>
                         <div className="col-md-6">
-                                    <h2>Create Tags<i class="fa-solid fa-tags"></i></h2>
+                                    <h2>Create Tags<i className="fa-solid fa-tags"></i></h2>
                                     <Tag />
                         </div>
                     </div>
