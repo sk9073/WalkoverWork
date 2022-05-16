@@ -12,7 +12,7 @@ const ContactPage = () => {
                             <div className="accordion" id="accordionPanelsStayOpenExample">
                                 <div className="accordion-item">
                                     <h4 className="accordion-header" id="panelsStayOpen-headingOne" >
-                                    <button type="button" class="btn btn-primary btn-lg btn-block" className="accordion-button" style={{padding :"5px"}} data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                    <button type="button" id="htp" class="btn btn-primary btn-lg btn-block" className="accordion-button" style={{padding :"5px"}} data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                                         How to publish the report?
                                     </button>
                                     </h4>
@@ -24,7 +24,7 @@ const ContactPage = () => {
                                 </div>
                                 <div className="accordion-item">
                                     <h4 className="accordion-header" id="panelsStayOpen-headingOne">
-                                    <button type="button" class="btn btn-primary btn-lg btn-block" className="accordion-button" style={{padding :"5px"}} data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                    <button type="button" id="htc" class="btn btn-primary btn-lg btn-block" className="accordion-button" style={{padding :"5px"}} data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                                         How to comment on a Report?
                                     </button>
                                     </h4>
@@ -36,7 +36,7 @@ const ContactPage = () => {
                                 </div>
                                 <div className="accordion-item">
                                     <h4 className="accordion-header" id="panelsStayOpen-headingOne">
-                                    <button type="button" class="btn btn-primary btn-lg btn-block" className="accordion-button" style={{padding :"5px"}} data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                    <button type="button" id="hte" class="btn btn-primary btn-lg btn-block" className="accordion-button" style={{padding :"5px"}} data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                                         How to Edit the Report?
                                     </button>
                                     </h4>
