@@ -5,8 +5,8 @@ import Link from 'next/link';
 
 const SigninComponent = () => {
     const [values, setValues] = useState({
-        email: 'ryan@gmail.com',
-        password: 'rrrrrr',
+        email: '',
+        password: '',
         error: '',
         loading: false,
         message: '',
@@ -60,6 +60,7 @@ const SigninComponent = () => {
                         onChange={handleChange('email')}
                         type="email"
                         className="form-control"
+                        id = "mail"
                         placeholder="Type your email"
                     />
                 </div>
@@ -69,13 +70,14 @@ const SigninComponent = () => {
                         value={password}
                         onChange={handleChange('password')}
                         type="password"
+                        id = "pw"
                         className="form-control"
                         placeholder="Type your password"
                     />
                 </div>
 
                 <div>
-                    <button className="btn btn-primary">Signin</button>
+                    <button className="btn btn-primary" id = "signinbut">Signin</button>
                 </div>
             </form>
         );

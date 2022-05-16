@@ -17,22 +17,22 @@ const UserIndex = () => {
                         <div className="col-md-4">
                             <ul class="list-group">
                                 <li className="list-group-item">
-                                    <Link href="/user/crud/category-tag">
+                                    <Link href="/user/crud/category-tag" id = "cct">
                                         <a>Create Category & Tags</a>
                                     </Link>
                                 </li>
                                 
-                                <li className="list-group-item">
+                                <li className="list-group-item" id= "pr">
                                     <a href="/user/crud/blog">Publish Report</a>
                                 </li>
 
-                                <li className="list-group-item">
+                                <li className="list-group-item" id="ud">
                                     <Link href="/user/crud/blogs">
                                         <a>Update/Delete Report</a>
                                     </Link>
                                 </li>
 
-                                <li className="list-group-item">
+                                <li className="list-group-item" id= "up">
                                     <a href="/user/update">Update profile</a>
                                 </li>
                             </ul>

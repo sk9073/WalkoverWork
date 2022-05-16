@@ -5,9 +5,9 @@ import { signup , isAuth } from '../../actions/auth';
 
 const SignupComponent = () => {
     const [values, setValues] = useState({
-        name: 'Ryan',
-        email: 'ryan@gmail.com',
-        password: 'rrrrrr',
+        name: '',
+        email: '',
+        password: '',
         error: '',
         loading: false,
         message: '',
@@ -60,6 +60,7 @@ const SignupComponent = () => {
                         value={name}
                         onChange={handleChange('name')}
                         type="text"
+                        id= "username"
                         className="form-control"
                         placeholder="Type your name"
                     />
@@ -69,6 +70,7 @@ const SignupComponent = () => {
                     <input
                         value={email}
                         onChange={handleChange('email')}
+                        id="mail"
                         type="email"
                         className="form-control"
                         placeholder="Type your email"
@@ -80,13 +82,14 @@ const SignupComponent = () => {
                         value={password}
                         onChange={handleChange('password')}
                         type="password"
+                        id="pw"
                         className="form-control"
                         placeholder="Type your password"
                     />
                 </div>
 
                 <div>
-                    <button className="btn btn-primary">Signup</button>
+                    <button className="btn btn-primary" id="signup">Signup</button>
                 </div>
             </form>
         );

@@ -47,11 +47,11 @@ const Search = () => {
         <form onSubmit={searchSubmit}>
             <div className="row">
                 <div className="col-md-8">
-                    <input type="search" className="form-control" placeholder="Search Reports" onChange={handleChange} />
+                    <input type="search" className="form-control" id= "search" placeholder="Search Reports" onChange={handleChange} />
                 </div>
 
                 <div className="col-md-4">
-                    <button className="btn btn-block btn-outline-primary" type="submit">
+                    <button className="btn btn-block btn-outline-primary" id="searchbut" type="submit">
                         Search
                     </button>
                 </div>
