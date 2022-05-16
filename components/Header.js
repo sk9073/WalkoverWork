@@ -42,7 +42,7 @@ const Header = () => {
           <Nav className="ml-auto" navbar>
             <React.Fragment>
               <NavItem>
-                <Link href="/blogs">
+                <Link href="/blogs" id="rep">
                   <NavLink>Reports</NavLink>
                 </Link>
               </NavItem>
@@ -51,12 +51,12 @@ const Header = () => {
             {!isAuth() && (
               <React.Fragment>
                 <NavItem>
-                  <Link href="/signin">
+                  <Link href="/signin" id="sin">
                     <NavLink>Signin</NavLink>
                   </Link>
                 </NavItem>
                 <NavItem>
-                  <Link href="/signup">
+                  <Link href="/signup" id="sup">
                     <NavLink>Signup</NavLink>
                   </Link>
                 </NavItem>
@@ -66,7 +66,7 @@ const Header = () => {
             {isAuth() && isAuth().role === 0 && (
              
               <NavItem>
-                <Link href="/user">
+                <Link href="/user" id="dbd">
                   <NavLink>{`${isAuth().name}'s Dashboard`}</NavLink>
                 </Link>
               </NavItem>
@@ -88,18 +88,18 @@ const Header = () => {
               </NavItem>
             )}
             <NavItem>
-                  <Link href="/contact/contact">
+                  <Link href="/contact/contact" id="contact">
                     <NavLink>Contact</NavLink>
                   </Link>
             </NavItem>
             <NavItem>
-                  <Link href="/about/about">
+                  <Link href="/about/about" id="abt">
                     <NavLink>About</NavLink>
                   </Link>
             </NavItem>
             <NavItem>
               <Link href="/user/crud/blog">
-                <NavLink className="btn btn-primary text-light">Publish a Report</NavLink>
+                <NavLink className="btn btn-primary text-light" id="par">Publish a Report</NavLink>
               </Link>
             </NavItem>
           </Nav>
