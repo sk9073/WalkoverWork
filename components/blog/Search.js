@@ -47,7 +47,7 @@ const Search = () => {
         <form onSubmit={searchSubmit}>
             <div className="row">
                 <div className="col-md-8">
-                    <input type="search" className="form-control" id= "search" placeholder="Search Reports" onChange={handleChange} />
+                    <input type="search" className="form-control" id= "search" placeholder="Search Documents" onChange={handleChange} />
                 </div>
 
                 <div className="col-md-4">

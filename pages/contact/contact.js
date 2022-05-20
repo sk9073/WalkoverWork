@@ -13,7 +13,7 @@ const ContactPage = () => {
                                 <div className="accordion-item">
                                     <h4 className="accordion-header" id="panelsStayOpen-headingOne" >
                                     <button type="button" id="htp" class="btn btn-primary btn-lg btn-block" className="accordion-button" style={{padding :"5px"}} data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                                        How to publish the report?
+                                        How to add the document?
                                     </button>
                                     </h4>
                                     <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
@@ -25,7 +25,7 @@ const ContactPage = () => {
                                 <div className="accordion-item">
                                     <h4 className="accordion-header" id="panelsStayOpen-headingOne">
                                     <button type="button" id="htc" class="btn btn-primary btn-lg btn-block" className="accordion-button" style={{padding :"5px"}} data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                                        How to comment on a Report?
+                                        How to comment on a document?
                                     </button>
                                     </h4>
                                     <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
@@ -37,7 +37,7 @@ const ContactPage = () => {
                                 <div className="accordion-item">
                                     <h4 className="accordion-header" id="panelsStayOpen-headingOne">
                                     <button type="button" id="hte" class="btn btn-primary btn-lg btn-block" className="accordion-button" style={{padding :"5px"}} data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                                        How to Edit the Report?
+                                        How to Edit the Document?
                                     </button>
                                     </h4>
                                     <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">

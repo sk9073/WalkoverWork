@@ -25,7 +25,7 @@ const AboutPage = () => {
                     </div>
                     <div className="row">
                         <div className="col-md-12 pt-5 pb-5">
-                            <h1>About the Repository</h1>
+                            <h1>About the Product</h1>
                             <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc metus arcu, imperdiet vitae elit eu, sollicitudin volutpat libero. Phasellus non quam rutrum, auctor urna quis, cursus risus. Etiam cursus eros mauris, et tempor nibh facilisis id. Pellentesque vestibulum ex sagittis luctus imperdiet. Pellentesque dolor nulla, lobortis eget ornare non, viverra sed nulla. Curabitur ut est dolor. Maecenas vitae bibendum ex, non posuere dolor. Integer eu sagittis nibh. Morbi nibh ex, rhoncus non ligula eget, porta fermentum quam.</h6>
                             <h6>Aliquam sed justo vestibulum, egestas sem in, vulputate metus. Curabitur fermentum ligula in faucibus vehicula. Praesent non arcu eros. Donec mattis laoreet libero in tempus. Sed interdum felis turpis, eu lacinia nisl pretium a. Mauris dapibus justo sapien, ac tempus urna venenatis eu. Sed nec luctus lectus, et euismod purus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</h6>
                         </div>

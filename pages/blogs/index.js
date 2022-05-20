@@ -106,7 +106,7 @@ const Blogs = ({ blogs, categories, tags, totalBlogs, blogsLimit, blogSkip, rout
                         <header>
                             <div className="col-md-12 pt-3">
                                 <h1 className="display-4 font-weight-bold text-center">
-                                    Reports
+                                    Documents
                                 </h1>
                             </div>
                             <section>

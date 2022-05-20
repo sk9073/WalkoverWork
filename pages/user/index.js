@@ -23,12 +23,12 @@ const UserIndex = () => {
                                 </li>
                                 
                                 <li className="list-group-item" id= "pr">
-                                    <a href="/user/crud/blog">Publish Report</a>
+                                    <a href="/user/crud/blog">Publish Documents</a>
                                 </li>
 
                                 <li className="list-group-item" id="ud">
                                     <Link href="/user/crud/blogs">
-                                        <a>Update/Delete Report</a>
+                                        <a>Update/Delete Documents</a>
                                     </Link>
                                 </li>
 
@@ -47,8 +47,8 @@ const UserIndex = () => {
                     <div className="row">
                             <div className="col-md-1"></div>
                             <div className="col-md-10">
-                                <q style={styleObj}>If we knew What it was we were doing it would not be reasearch , Would it?</q>
-                                <h6 style={{fontStyle: 'italic',textAlign:'right'}}>--Albert Einstein</h6>
+                                <q style={styleObj}>Many ideas grow better when transplanted into another mind than the one where they sprang up.</q>
+                                <h6 style={{fontStyle: 'italic',textAlign:'right'}}>--Oliver Wendell Holmes</h6>
                             </div>
                     </div>
                 </div>
