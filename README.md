@@ -7,11 +7,17 @@ When an end-user encounter a problem in the platform they can report the bug via
 
 # Installing Pre requisites :
 
-Install MongoDB version 4.4 : https://www.youtube.com/watch?v=wLNL2HTvcVw&list=PL4cUxeGkcC9jpvoYriLI0bY8DOgWZfi6u&index=2
-Install Node.js version 16.0 : https://nodejs.org/en/
+- Install MongoDB version 4.4 : https://www.youtube.com/watch?v=wLNL2HTvcVw&list=PL4cUxeGkcC9jpvoYriLI0bY8DOgWZfi6u&index=2
+- Install Node.js version 16.0 : https://nodejs.org/en/
 
 
 # How to run the WebApp??
-run the command : "C:\Program Files\MongoDB\Server\4.4\bin\mongod.exe"  in cmd prompt.
-run the command "npm run dev" inside the frontend directory
-run the command "npm start" inside the backend directory.
+- run the command : "C:\Program Files\MongoDB\Server\4.4\bin\mongod.exe"  in cmd prompt.
+- run the command "npm install" inside the frontend directory
+- run the command "npm run dev" inside the frontend directory
+- run the command "npm install" inside the backend directory
+- run the command "npm start" inside the backend directory.
+
+
+# Static Code analysis using sonar cube
+![WhatsApp Image 2022-05-20 at 9 50 13 PM](https://user-images.githubusercontent.com/59683781/169571767-61624246-dca6-4de2-82c4-ad52c0cda2a7.jpeg)
